@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Jeff's Blog</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <style>
+        /* header */
+        header {
+            background-color: #b2b6a4;;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            font-family: 'Arial', 'Noto Sans', serif;
+            position: relative;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 60px;
+            color: #fff; 
+            text-shadow: 2px 2px #666; 
+        }
+        
+        /* homepage, aboutme, education button */
+        .nav-menu {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 20x;
+        }
+
+        .nav-menu a {
+            margin: 0 10px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .nav-menu a:hover {
+            background-color: #555;
+            color: #fff;
+        }
+
+        /* body */
+        body {
+            margin: 0;
+            font-family: 'Arial', 'Noto Sans', serif;
+            background-color: #f4f4f4;
+        }
+
+        h2 {
+            margin-bottom: 7px;
+            font-size: 30px;
+            color: black;
+        }
+
+        div {
+            font-size: 1.1em;
+            width: 800px;
+            margin: auto;
+            padding: 5px;
+        }
+        
+        img {
+            margin: auto;
+            width: 600px;
+            padding: 10px;
+        }
+
+        /* footer */
+        footer {
+            background-color: #b2b6a4; 
+            color: black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer img {
+            width: 40px; 
+            height: 40px; 
+            margin: 0 10px; 
+            transition: transform 0.3s ease;
+        }
+
+        footer img:hover {
+            transform: scale(1.15); 
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="top" style="margin-top: 30px;"> 平行程式設計 </h1>
+        <nav class="nav-menu">
+            <a href="index.html"> 首頁 </a> | 
+            <a href="aboutme.html"> 關於我 </a> | 
+            <a href="education.html"> 學歷 </a> 
+        </nav>
+    </header>
+
+    <div>
+        <h2># 課程內容</h2>
+        <p> 此課程包含硬體到軟體，當然也包含如何讓程式平行運算，減少執行時間。<br>
+            <sapn style="font-weight: bold;">以下是上課的五大課程主題</sapn>
+            <ol>
+                <li> C/C++ Threading </li>
+                <li> OpenMP </li>
+                <li> SIMD Programming </li>
+                <li> Message Passing Interface </li>
+                <li> GPUs </li>
+            </ol>
+        </p>
+    </div>
+    
+    <div>
+        <h2># 上課方式</h2>
+        <p> 一週兩次，一次上課，一次lab。上課的部分就和台灣的上課模式一樣，至於lab部分有課堂練習和回家作業。課堂練習會有助教教你，回家作業則是課堂練習的變形。難度由簡單到難，我自己是完成作業一到六，之後就沒有心和餘力去寫了XD。課程有錄影，所以可以看影片，也可以去實體。因為我住的地方離教室需要2小時的通勤時間，所以我都採取看錄影帶的方式上課。</p>
+    </div>
+    
+    <div>
+        <h2># 考試作業</h2>
+        <p> 八次作業，一次期末考。作業只有加分作用，八個作業只須完成六個就可以在期末的時後讓總成績上升一個級距(總成績減0.3)。期末考試一次定生死(是有補考機制，但要等到下個學期的開學)，所以期末考的時候要全力以赴，因為課程份量有點多。平時寫作業也對期末考試很有幫助。如果是大神的話，可以不寫作業，一樣可以拿滿分!
+        </p>
+    </div>
+    
+    <div>
+        <h2># 心得</h2>
+        <p> 我推薦想要學習平行程式設計的同學修這堂課，不過因為只看期末考的成績決定是否有通過，所以期末要狂讀書，我自己差點沒有通過這門考試，所以要有心理準備。會有考古題讓同學回去練習(統一由老師給)，不過沒有解答，必須自行查答案。期末考試和考古題類似，不過請盡量以他授課的內容去回答，不然分數會被扣光(有著慘痛的經驗)。</p>
+    </div>
+
+    <h2 style="color: #777; text-align: center;">Contact Info</h2>
+    <footer>
+        <a href="mailto:chiafu.lin2021@gmail.com" title="gmail"><img src="image/envelope.svg"></a>
+        <a target="_blank" href="https://github.com/chiafu2018" title="github"><img src="image/github.svg"></a>
+        <a href="https://www.facebook.com/profile.php?id=100008311837968&locale=zh_TW" title="facebook"><img src="image/facebook.svg"></a>
+        <a href="https://www.linkedin.com/in/jeff-lin-b18189280/" title="linkedin"><img src="image/linkedin.svg"></a>
+        <p>&copy; 2024 Jeff Lin. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
