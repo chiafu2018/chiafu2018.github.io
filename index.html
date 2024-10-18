@@ -4,116 +4,27 @@
     <meta charset="utf-8">
     <title>Jeff's Blog</title>
     <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="./css/index.css">
+
     <!-- Google advertisement -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1223013288426205"
      crossorigin="anonymous"></script>    
-    <style>
-        header {
-            background-color: #b2b6a4;;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-            font-family: 'Arial', 'Noto Sans', serif;
-            position: relative;
-        }
-
-        h1 {
-            margin-top: 0;
-            font-size: 60px;
-            color: #fff; 
-            text-shadow: 2px 2px #666; 
-        }
-
-        /* homepage, aboutme, education button */
-        .nav-menu {
-            position: absolute;
-            top: 15px;
-            right: 20px;
-            padding: 10px;
-            font-weight: bold;
-            font-size: 20x;
-        }
-        .nav-menu a {
-            margin: 0 10px;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-            border-radius: 10px;
-            text-decoration: none;
-            transition: background-color 0.3s ease-in-out;
-        }
-
-        .nav-menu a:hover {
-            background-color: #555;
-            color: #fff;
-        }
-
-        /* body */
-        body {
-            margin: 0;
-            font-family: 'Arial', 'Noto Sans', serif;
-            background-color: #f4f4f4;
-        }
-
-        .container {
-            height: 600px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-
-        img {
-            width: 500px;
-            height: 500px;
-            border-radius: 50%;
-            border: 2px solid #ccc;
-            margin: 20px;
-            object-fit: cover;
-        }
-
-        .language-links {
-            margin-top: 20px;
-        }
-
-        .language-links a {
-            font-size: 1em;
-            color: #007BFF;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        .language-links a:hover {
-            text-decoration: underline;
-        }
-
-		footer {
-			left: 0;
-			right: 0;
-			bottom: 5px;
-			text-align: center;
-			font-size: 0.9em;
-			color: #777;
-			padding: 10px; 
-		}
-    </style>
 </head>
 
 <body>
     <header>
         <h1 id="top" style="margin-top: 30px;"> 這是林家甫 </h1>
         <nav class="nav-menu">
-            <a href="sitemap.html"> 網站導覽 </a> | 
-            <a href="aboutme.html"> 關於我 </a> | 
-            <a href="education.html"> 學歷 </a> 
+            <a href="./chinese/sitemap.html"> 網站導覽 </a> | 
+            <a href="./chinese/aboutme.html"> 關於我 </a> | 
+            <a href="./chinese/education.html"> 學歷 </a> 
         </nav>
     </header>
 
     <div class="container">
         <img src="image/profile.jpg" alt="Jeff's photo">
         <div class="language-links">
-            <a href="indexen.html">English</a> | <a href="#top">中文</a>
+            <a href="indexen.html">English</a> | <a href="#top" onclick="window.alert('你已經在中文首頁了');" >中文</a>
         </div>
     </div>
 

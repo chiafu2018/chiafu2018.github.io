@@ -1,0 +1,84 @@
+/* header */
+header {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1em;
+    font-family: 'Arial', 'Noto Sans', serif;
+    position: relative;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 60px;
+    color: #333;
+}
+
+/* homepage, aboutme, education button */
+.nav-menu {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20x;
+}
+
+.nav-menu a {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav-menu a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* body */
+body {
+    margin: 0;
+    font-family: 'Arial', 'Noto Sans', serif;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    margin-bottom: 7px;
+    font-size: 30px;
+    color: black;
+}
+
+div {
+    font-size: 1.1em;
+    width: 800px;
+    margin: auto;
+    padding: 7px;
+}
+
+img {
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+}
+
+/* footer */
+footer {
+    background-color: #b2b6a4; 
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer img {
+    width: 40px; 
+    height: 40px; 
+    margin: 0 10px; 
+    transition: transform 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.15); 
+}
